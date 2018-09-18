@@ -4,6 +4,20 @@
     {
       "constant": true,
       "inputs": [],
+      "name": "counter",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
       "name": "owner",
       "outputs": [
         {
@@ -58,11 +72,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052600060015534801561001557600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061046f806100656000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063303bf4211461005c5780638da5cb5b14610073578063c0576b73146100ca575b600080fd5b34801561006857600080fd5b50610071610186565b005b34801561007f57600080fd5b50610088610274565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100d657600080fd5b506100f560048036038101908080359060200190929190505050610299565b60405180806020018481526020018361ffff1661ffff168152602001828103825285818151815260200191508051906020019080838360005b8381101561014957808201518184015260208101905061012e565b50505050905090810190601f1680156101765780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b61018e610378565b6060604051908101604052806040805190810160405280600c81526020017f54657374204d6f6e737465720000000000000000000000000000000000000000815250815260200160016000815480929190600101919050558152602001600161ffff16815250905060028190806001815401808255809150509060018203906000526020600020906003020160009091929091909150600082015181600001908051906020019061024092919061039e565b506020820151816001015560408201518160020160006101000a81548161ffff021916908361ffff16021790555050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6002818154811015156102a857fe5b9060005260206000209060030201600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103545780601f1061032957610100808354040283529160200191610354565b820191906000526020600020905b81548152906001019060200180831161033757829003601f168201915b5050505050908060010154908060020160009054906101000a900461ffff16905083565b6060604051908101604052806060815260200160008152602001600061ffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103df57805160ff191683800117855561040d565b8280016001018555821561040d579182015b8281111561040c5782518255916020019190600101906103f1565b5b50905061041a919061041e565b5090565b61044091905b8082111561043c576000816000905550600101610424565b5090565b905600a165627a7a72305820128b2aa83d45acabaeb42815eebee96e3062a48d8a795184fb32d1d2b677b2700029",
-  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063303bf4211461005c5780638da5cb5b14610073578063c0576b73146100ca575b600080fd5b34801561006857600080fd5b50610071610186565b005b34801561007f57600080fd5b50610088610274565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100d657600080fd5b506100f560048036038101908080359060200190929190505050610299565b60405180806020018481526020018361ffff1661ffff168152602001828103825285818151815260200191508051906020019080838360005b8381101561014957808201518184015260208101905061012e565b50505050905090810190601f1680156101765780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b61018e610378565b6060604051908101604052806040805190810160405280600c81526020017f54657374204d6f6e737465720000000000000000000000000000000000000000815250815260200160016000815480929190600101919050558152602001600161ffff16815250905060028190806001815401808255809150509060018203906000526020600020906003020160009091929091909150600082015181600001908051906020019061024092919061039e565b506020820151816001015560408201518160020160006101000a81548161ffff021916908361ffff16021790555050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6002818154811015156102a857fe5b9060005260206000209060030201600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103545780601f1061032957610100808354040283529160200191610354565b820191906000526020600020905b81548152906001019060200180831161033757829003601f168201915b5050505050908060010154908060020160009054906101000a900461ffff16905083565b6060604051908101604052806060815260200160008152602001600061ffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106103df57805160ff191683800117855561040d565b8280016001018555821561040d579182015b8281111561040c5782518255916020019190600101906103f1565b5b50905061041a919061041e565b5090565b61044091905b8082111561043c576000816000905550600101610424565b5090565b905600a165627a7a72305820128b2aa83d45acabaeb42815eebee96e3062a48d8a795184fb32d1d2b677b2700029",
-  "sourceMap": "26:429:0:-;;;104:1;86:19;;243:49;8:9:-1;5:2;;;30:1;27;20:12;5:2;243:49:0;275:10;267:5;;:18;;;;;;;;;;;;;;;;;;26:429;;;;;;",
-  "deployedSourceMap": "26:429:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;298:154;;8:9:-1;5:2;;;30:1;27;20:12;5:2;298:154:0;;;;;;63:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;63:20:0;;;;;;;;;;;;;;;;;;;;;;;;;;;108:31;;8:9:-1;5:2;;;30:1;27;20:12;5:2;108:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;108:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;298:154;342:31;;:::i;:::-;376:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;406:7;;:9;;;;;;;;;;;;376:43;;;;417:1;376:43;;;;;342:77;;423:8;437:10;423:25;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;423:25:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;298:154;:::o;63:20::-;;;;;;;;;;;;;:::o;108:31::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;26:429::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.24;\n\ncontract CryptoCookieMonsters {\n\n    address public owner;\n\tuint256 counter = 0;\n\tCookieMonster[] public monsters;\n\n    struct CookieMonster {\n        string name;\n        uint256 id;\n        uint16 level;\n    }\n\n    constructor() {\n        owner = msg.sender;\n    }\n\n    function createCookieMonster() external {\n\t\tCookieMonster memory newMonster = CookieMonster(\"Test Monster\", counter++, 1);\n\t\tmonsters.push(newMonster);\n\t}\n\n}",
+  "bytecode": "0x6080604052600060015534801561001557600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506104ab806100656000396000f300608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063303bf4211461006757806361bc221a1461007e5780638da5cb5b146100a9578063c0576b7314610100575b600080fd5b34801561007357600080fd5b5061007c6101bc565b005b34801561008a57600080fd5b506100936102aa565b6040518082815260200191505060405180910390f35b3480156100b557600080fd5b506100be6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010c57600080fd5b5061012b600480360381019080803590602001909291905050506102d5565b60405180806020018481526020018361ffff1661ffff168152602001828103825285818151815260200191508051906020019080838360005b8381101561017f578082015181840152602081019050610164565b50505050905090810190601f1680156101ac5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101c46103b4565b6060604051908101604052806040805190810160405280600c81526020017f54657374204d6f6e737465720000000000000000000000000000000000000000815250815260200160016000815480929190600101919050558152602001600161ffff1681525090506002819080600181540180825580915050906001820390600052602060002090600302016000909192909190915060008201518160000190805190602001906102769291906103da565b506020820151816001015560408201518160020160006101000a81548161ffff021916908361ffff16021790555050505050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6002818154811015156102e457fe5b9060005260206000209060030201600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103905780601f1061036557610100808354040283529160200191610390565b820191906000526020600020905b81548152906001019060200180831161037357829003601f168201915b5050505050908060010154908060020160009054906101000a900461ffff16905083565b6060604051908101604052806060815260200160008152602001600061ffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061041b57805160ff1916838001178555610449565b82800160010185558215610449579182015b8281111561044857825182559160200191906001019061042d565b5b509050610456919061045a565b5090565b61047c91905b80821115610478576000816000905550600101610460565b5090565b905600a165627a7a72305820287849f6d247d7a074ffe628f33757213a36739c75cf407f5aa1a5c51637147d0029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063303bf4211461006757806361bc221a1461007e5780638da5cb5b146100a9578063c0576b7314610100575b600080fd5b34801561007357600080fd5b5061007c6101bc565b005b34801561008a57600080fd5b506100936102aa565b6040518082815260200191505060405180910390f35b3480156100b557600080fd5b506100be6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010c57600080fd5b5061012b600480360381019080803590602001909291905050506102d5565b60405180806020018481526020018361ffff1661ffff168152602001828103825285818151815260200191508051906020019080838360005b8381101561017f578082015181840152602081019050610164565b50505050905090810190601f1680156101ac5780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6101c46103b4565b6060604051908101604052806040805190810160405280600c81526020017f54657374204d6f6e737465720000000000000000000000000000000000000000815250815260200160016000815480929190600101919050558152602001600161ffff1681525090506002819080600181540180825580915050906001820390600052602060002090600302016000909192909190915060008201518160000190805190602001906102769291906103da565b506020820151816001015560408201518160020160006101000a81548161ffff021916908361ffff16021790555050505050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6002818154811015156102e457fe5b9060005260206000209060030201600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103905780601f1061036557610100808354040283529160200191610390565b820191906000526020600020905b81548152906001019060200180831161037357829003601f168201915b5050505050908060010154908060020160009054906101000a900461ffff16905083565b6060604051908101604052806060815260200160008152602001600061ffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061041b57805160ff1916838001178555610449565b82800160010185558215610449579182015b8281111561044857825182559160200191906001019061042d565b5b509050610456919061045a565b5090565b61047c91905b80821115610478576000816000905550600101610460565b5090565b905600a165627a7a72305820287849f6d247d7a074ffe628f33757213a36739c75cf407f5aa1a5c51637147d0029",
+  "sourceMap": "26:401:0:-;;;108:1;83:26;;220:47;8:9:-1;5:2;;;30:1;27;20:12;5:2;220:47:0;253:10;245:5;;:18;;;;;;;;;;;;;;;;;;26:401;;;;;;",
+  "deployedSourceMap": "26:401:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;270:154;;8:9:-1;5:2;;;30:1;27;20:12;5:2;270:154:0;;;;;;83:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;83:26:0;;;;;;;;;;;;;;;;;;;;;;;60:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;60:20:0;;;;;;;;;;;;;;;;;;;;;;;;;;;112:31;;8:9:-1;5:2;;;30:1;27;20:12;5:2;112:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;112:31:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;270:154;314:31;;:::i;:::-;348:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;378:7;;:9;;;;;;;;;;;;348:43;;;;389:1;348:43;;;;;314:77;;395:8;409:10;395:25;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;395:25:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;270:154;:::o;83:26::-;;;;:::o;60:20::-;;;;;;;;;;;;;:::o;112:31::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;26:401::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.24;\n\ncontract CryptoCookieMonsters {\n\n\taddress public owner;\n\tuint256 public counter = 0;\n\tCookieMonster[] public monsters;\n\n\tstruct CookieMonster {\n\t\tstring name;\n\t\tuint256 id;\n\t\tuint16 level;\n\t}\n\n\tconstructor() public {\n\t\towner = msg.sender;\n\t}\n\n\tfunction createCookieMonster() external {\n\t\tCookieMonster memory newMonster = CookieMonster(\"Test Monster\", counter++, 1);\n\t\tmonsters.push(newMonster);\n\t}\n\n}",
   "sourcePath": "/home/flashy/Git Repos/SolProject/contracts/CryptoCookieMonsters.sol",
   "ast": {
     "absolutePath": "/home/flashy/Git Repos/SolProject/contracts/CryptoCookieMonsters.sol",
@@ -104,7 +118,7 @@
             "name": "owner",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "63:20:0",
+            "src": "60:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -115,7 +129,7 @@
               "id": 2,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "63:7:0",
+              "src": "60:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
                 "typeString": "address"
@@ -130,7 +144,7 @@
             "name": "counter",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "86:19:0",
+            "src": "83:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -141,7 +155,7 @@
               "id": 4,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "86:7:0",
+              "src": "83:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -157,7 +171,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "104:1:0",
+              "src": "108:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -165,7 +179,7 @@
               },
               "value": "0"
             },
-            "visibility": "internal"
+            "visibility": "public"
           },
           {
             "constant": false,
@@ -173,7 +187,7 @@
             "name": "monsters",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "108:31:0",
+            "src": "112:31:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -187,7 +201,7 @@
                 "name": "CookieMonster",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "108:13:0",
+                "src": "112:13:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_CookieMonster_$16_storage_ptr",
                   "typeString": "struct CryptoCookieMonsters.CookieMonster"
@@ -196,7 +210,7 @@
               "id": 8,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "108:15:0",
+              "src": "112:15:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_struct$_CookieMonster_$16_storage_$dyn_storage_ptr",
                 "typeString": "struct CryptoCookieMonsters.CookieMonster[]"
@@ -215,7 +229,7 @@
                 "name": "name",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "177:11:0",
+                "src": "172:11:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -226,7 +240,7 @@
                   "id": 10,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "177:6:0",
+                  "src": "172:6:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -241,7 +255,7 @@
                 "name": "id",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "198:10:0",
+                "src": "187:10:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -252,7 +266,7 @@
                   "id": 12,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "198:7:0",
+                  "src": "187:7:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -267,7 +281,7 @@
                 "name": "level",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "218:12:0",
+                "src": "201:12:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -278,7 +292,7 @@
                   "id": 14,
                   "name": "uint16",
                   "nodeType": "ElementaryTypeName",
-                  "src": "218:6:0",
+                  "src": "201:6:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint16",
                     "typeString": "uint16"
@@ -291,14 +305,14 @@
             "name": "CookieMonster",
             "nodeType": "StructDefinition",
             "scope": 45,
-            "src": "146:91:0",
+            "src": "147:70:0",
             "visibility": "public"
           },
           {
             "body": {
               "id": 24,
               "nodeType": "Block",
-              "src": "257:35:0",
+              "src": "241:26:0",
               "statements": [
                 {
                   "expression": {
@@ -315,7 +329,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "267:5:0",
+                      "src": "245:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -331,8 +345,8 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 128,
-                        "src": "275:3:0",
+                        "referencedDeclaration": 60,
+                        "src": "253:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -346,13 +360,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "275:10:0",
+                      "src": "253:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "267:18:0",
+                    "src": "245:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -360,7 +374,7 @@
                   },
                   "id": 23,
                   "nodeType": "ExpressionStatement",
-                  "src": "267:18:0"
+                  "src": "245:18:0"
                 }
               ]
             },
@@ -376,17 +390,17 @@
               "id": 17,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "254:2:0"
+              "src": "231:2:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 18,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "257:0:0"
+              "src": "241:0:0"
             },
             "scope": 45,
-            "src": "243:49:0",
+            "src": "220:47:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -395,7 +409,7 @@
             "body": {
               "id": 43,
               "nodeType": "Block",
-              "src": "338:114:0",
+              "src": "310:114:0",
               "statements": [
                 {
                   "assignments": [
@@ -408,7 +422,7 @@
                       "name": "newMonster",
                       "nodeType": "VariableDeclaration",
                       "scope": 44,
-                      "src": "342:31:0",
+                      "src": "314:31:0",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -421,7 +435,7 @@
                         "name": "CookieMonster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "342:13:0",
+                        "src": "314:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_CookieMonster_$16_storage_ptr",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster"
@@ -445,7 +459,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "390:14:0",
+                        "src": "362:14:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_a87d10eb67b05a944cc6732f5b20dad79b7b797d4ba6d9c24958fe79aa437905",
@@ -463,7 +477,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "++",
                         "prefix": false,
-                        "src": "406:9:0",
+                        "src": "378:9:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "id": 32,
@@ -471,7 +485,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 6,
-                          "src": "406:7:0",
+                          "src": "378:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -492,7 +506,7 @@
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "417:1:0",
+                        "src": "389:1:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
@@ -521,7 +535,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "376:13:0",
+                      "src": "348:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_struct$_CookieMonster_$16_storage_ptr_$",
                         "typeString": "type(struct CryptoCookieMonsters.CookieMonster storage pointer)"
@@ -535,14 +549,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "376:43:0",
+                    "src": "348:43:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_CookieMonster_$16_memory",
                       "typeString": "struct CryptoCookieMonsters.CookieMonster memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "342:77:0"
+                  "src": "314:77:0"
                 },
                 {
                   "expression": {
@@ -555,7 +569,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 29,
-                        "src": "437:10:0",
+                        "src": "409:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_CookieMonster_$16_memory_ptr",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster memory"
@@ -576,7 +590,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 9,
-                        "src": "423:8:0",
+                        "src": "395:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_CookieMonster_$16_storage_$dyn_storage",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster storage ref[] storage ref"
@@ -590,7 +604,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "423:13:0",
+                      "src": "395:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_CookieMonster_$16_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct CryptoCookieMonsters.CookieMonster storage ref) returns (uint256)"
@@ -604,7 +618,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "423:25:0",
+                    "src": "395:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -612,7 +626,7 @@
                   },
                   "id": 42,
                   "nodeType": "ExpressionStatement",
-                  "src": "423:25:0"
+                  "src": "395:25:0"
                 }
               ]
             },
@@ -628,27 +642,27 @@
               "id": 26,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "326:2:0"
+              "src": "298:2:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 27,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "338:0:0"
+              "src": "310:0:0"
             },
             "scope": 45,
-            "src": "298:154:0",
+            "src": "270:154:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
         "scope": 46,
-        "src": "26:429:0"
+        "src": "26:401:0"
       }
     ],
-    "src": "0:455:0"
+    "src": "0:427:0"
   },
   "legacyAST": {
     "absolutePath": "/home/flashy/Git Repos/SolProject/contracts/CryptoCookieMonsters.sol",
@@ -690,7 +704,7 @@
             "name": "owner",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "63:20:0",
+            "src": "60:20:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -701,7 +715,7 @@
               "id": 2,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "63:7:0",
+              "src": "60:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
                 "typeString": "address"
@@ -716,7 +730,7 @@
             "name": "counter",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "86:19:0",
+            "src": "83:26:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -727,7 +741,7 @@
               "id": 4,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "86:7:0",
+              "src": "83:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -743,7 +757,7 @@
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "104:1:0",
+              "src": "108:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -751,7 +765,7 @@
               },
               "value": "0"
             },
-            "visibility": "internal"
+            "visibility": "public"
           },
           {
             "constant": false,
@@ -759,7 +773,7 @@
             "name": "monsters",
             "nodeType": "VariableDeclaration",
             "scope": 45,
-            "src": "108:31:0",
+            "src": "112:31:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -773,7 +787,7 @@
                 "name": "CookieMonster",
                 "nodeType": "UserDefinedTypeName",
                 "referencedDeclaration": 16,
-                "src": "108:13:0",
+                "src": "112:13:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_CookieMonster_$16_storage_ptr",
                   "typeString": "struct CryptoCookieMonsters.CookieMonster"
@@ -782,7 +796,7 @@
               "id": 8,
               "length": null,
               "nodeType": "ArrayTypeName",
-              "src": "108:15:0",
+              "src": "112:15:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_array$_t_struct$_CookieMonster_$16_storage_$dyn_storage_ptr",
                 "typeString": "struct CryptoCookieMonsters.CookieMonster[]"
@@ -801,7 +815,7 @@
                 "name": "name",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "177:11:0",
+                "src": "172:11:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -812,7 +826,7 @@
                   "id": 10,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "177:6:0",
+                  "src": "172:6:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -827,7 +841,7 @@
                 "name": "id",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "198:10:0",
+                "src": "187:10:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -838,7 +852,7 @@
                   "id": 12,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "198:7:0",
+                  "src": "187:7:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -853,7 +867,7 @@
                 "name": "level",
                 "nodeType": "VariableDeclaration",
                 "scope": 16,
-                "src": "218:12:0",
+                "src": "201:12:0",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -864,7 +878,7 @@
                   "id": 14,
                   "name": "uint16",
                   "nodeType": "ElementaryTypeName",
-                  "src": "218:6:0",
+                  "src": "201:6:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint16",
                     "typeString": "uint16"
@@ -877,14 +891,14 @@
             "name": "CookieMonster",
             "nodeType": "StructDefinition",
             "scope": 45,
-            "src": "146:91:0",
+            "src": "147:70:0",
             "visibility": "public"
           },
           {
             "body": {
               "id": 24,
               "nodeType": "Block",
-              "src": "257:35:0",
+              "src": "241:26:0",
               "statements": [
                 {
                   "expression": {
@@ -901,7 +915,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "267:5:0",
+                      "src": "245:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -917,8 +931,8 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 128,
-                        "src": "275:3:0",
+                        "referencedDeclaration": 60,
+                        "src": "253:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
@@ -932,13 +946,13 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "275:10:0",
+                      "src": "253:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "267:18:0",
+                    "src": "245:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -946,7 +960,7 @@
                   },
                   "id": 23,
                   "nodeType": "ExpressionStatement",
-                  "src": "267:18:0"
+                  "src": "245:18:0"
                 }
               ]
             },
@@ -962,17 +976,17 @@
               "id": 17,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "254:2:0"
+              "src": "231:2:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 18,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "257:0:0"
+              "src": "241:0:0"
             },
             "scope": 45,
-            "src": "243:49:0",
+            "src": "220:47:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -981,7 +995,7 @@
             "body": {
               "id": 43,
               "nodeType": "Block",
-              "src": "338:114:0",
+              "src": "310:114:0",
               "statements": [
                 {
                   "assignments": [
@@ -994,7 +1008,7 @@
                       "name": "newMonster",
                       "nodeType": "VariableDeclaration",
                       "scope": 44,
-                      "src": "342:31:0",
+                      "src": "314:31:0",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -1007,7 +1021,7 @@
                         "name": "CookieMonster",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 16,
-                        "src": "342:13:0",
+                        "src": "314:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_CookieMonster_$16_storage_ptr",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster"
@@ -1031,7 +1045,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "390:14:0",
+                        "src": "362:14:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_a87d10eb67b05a944cc6732f5b20dad79b7b797d4ba6d9c24958fe79aa437905",
@@ -1049,7 +1063,7 @@
                         "nodeType": "UnaryOperation",
                         "operator": "++",
                         "prefix": false,
-                        "src": "406:9:0",
+                        "src": "378:9:0",
                         "subExpression": {
                           "argumentTypes": null,
                           "id": 32,
@@ -1057,7 +1071,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 6,
-                          "src": "406:7:0",
+                          "src": "378:7:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1078,7 +1092,7 @@
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "417:1:0",
+                        "src": "389:1:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
@@ -1107,7 +1121,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "376:13:0",
+                      "src": "348:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_struct$_CookieMonster_$16_storage_ptr_$",
                         "typeString": "type(struct CryptoCookieMonsters.CookieMonster storage pointer)"
@@ -1121,14 +1135,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "376:43:0",
+                    "src": "348:43:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_CookieMonster_$16_memory",
                       "typeString": "struct CryptoCookieMonsters.CookieMonster memory"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "342:77:0"
+                  "src": "314:77:0"
                 },
                 {
                   "expression": {
@@ -1141,7 +1155,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 29,
-                        "src": "437:10:0",
+                        "src": "409:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_CookieMonster_$16_memory_ptr",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster memory"
@@ -1162,7 +1176,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 9,
-                        "src": "423:8:0",
+                        "src": "395:8:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_struct$_CookieMonster_$16_storage_$dyn_storage",
                           "typeString": "struct CryptoCookieMonsters.CookieMonster storage ref[] storage ref"
@@ -1176,7 +1190,7 @@
                       "memberName": "push",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "423:13:0",
+                      "src": "395:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_CookieMonster_$16_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct CryptoCookieMonsters.CookieMonster storage ref) returns (uint256)"
@@ -1190,7 +1204,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "423:25:0",
+                    "src": "395:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1198,7 +1212,7 @@
                   },
                   "id": 42,
                   "nodeType": "ExpressionStatement",
-                  "src": "423:25:0"
+                  "src": "395:25:0"
                 }
               ]
             },
@@ -1214,27 +1228,27 @@
               "id": 26,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "326:2:0"
+              "src": "298:2:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 27,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "338:0:0"
+              "src": "310:0:0"
             },
             "scope": 45,
-            "src": "298:154:0",
+            "src": "270:154:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
         "scope": 46,
-        "src": "26:429:0"
+        "src": "26:401:0"
       }
     ],
-    "src": "0:455:0"
+    "src": "0:427:0"
   },
   "compiler": {
     "name": "solc",
@@ -1242,5 +1256,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-09-18T19:07:27.177Z"
+  "updatedAt": "2018-09-18T20:04:19.693Z"
 }
